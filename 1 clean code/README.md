@@ -24,17 +24,24 @@ Flake8 is ready-to-use linter for python which is perfect to not worry too much 
 
 Reload window in vs code. Open auto_format_on_save.py and save. Flake8 will squiggle lines where it spots some issues. 
 
-# Git flow
+# Git branching strategies
+
+## Github flow
 
 How to decide on your git workflow? When to branch and how to merge? There is no common solution for this as it depends on your use case. However, Github suggests a simple approach called *github flow*: https://guides.github.com/introduction/flow/
 
-## TL;DR
+### TL;DR
 
 1. anything in the main branch is always deployable
 2. branch when developing and use descriptive names, like `refactor-authentication` or `user-content-cache-key`
 4. commit early and often with clear commit messages to understand what has been developed
 5. Pull requests to review, question and comment code
 6. deploy from the development branch for testing
+
+## Branching model using feature, release and hotfix branches
+
+Here is a great article about a common branching strategy: https://nvie.com/posts/a-successful-git-branching-model/
+
 
 
 
