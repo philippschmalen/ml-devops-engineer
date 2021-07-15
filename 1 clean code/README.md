@@ -42,6 +42,10 @@ How to decide on your git workflow? When to branch and how to merge? There is no
 
 Here is a great article about a common branching strategy: https://nvie.com/posts/a-successful-git-branching-model/
 
+## Merge conflicts
+
+Git does not know which changes to push when the same lines within a file were edited. How to solve: https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
+
 
 
 
