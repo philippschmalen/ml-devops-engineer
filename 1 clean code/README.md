@@ -1,6 +1,6 @@
-# Automated pep style and linting
+# Automate formatting and linting in VS Code
 
-## Black
+## Formatting: Black
 
 Black is an opinionated formatter for python. I want an automated formatting whenever I save a file. How to set up: 
 
@@ -11,7 +11,7 @@ Black is an opinionated formatter for python. I want an automated formatting whe
    3. "editor.formatOnSaveMode": "file"
 3. Reload vs code and enjoy auto-formatted python files
 
-## Flake8 
+## Linting: Flake8 
 
 Flake8 is ready-to-use linter for python which is perfect to not worry too much about configurations. How to set up:
 
@@ -20,7 +20,7 @@ Flake8 is ready-to-use linter for python which is perfect to not worry too much 
 3. vs code user settings
    1. "cornflakes.linter.executablePath": "C:/Users/philipp.schmalen/python/Scripts/flake8.exe"
 
-## Check it out
+## Test it
 
 Reload window in vs code. Open auto_format_on_save.py and save. Flake8 will squiggle lines where it spots some issues. 
 
