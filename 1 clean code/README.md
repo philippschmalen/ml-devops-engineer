@@ -67,6 +67,20 @@ It logs in `log/run.log` when running `logging_exercise.log`:
       16-07 13:09 root         ERROR    Input does not match expected type.
       16-07 13:09 root         INFO     SUCCESS: sum calculated
 
+#### Error logging example with `raise` and `try... except`
+
+Taken from Google's python style guide. 
+
+```python
+if not 0 <= p <= 1:
+   raise ValueError(f'Not a probability: {p!r}')
+
+try:
+   os.rmdir(workdir)
+except OSError as error:
+   logging.warning('Could not remove directory (reason: %r): %r',
+                  error, workdir)
+```
 
 ### Error handling
 
@@ -76,7 +90,7 @@ According to Google's styleguide:
 
 Exceptions should be raised explicitly with `raise`. It validates function input, enforces correct usage and indicates programming errors. Use `assert` to check for internal correctness. 
 
-#### Example
+#### Example using `raise` and `assert`
 
 ```python
 def connect_to_next_port(self, minimum: int) -> int:
@@ -104,6 +118,7 @@ def connect_to_next_port(self, minimum: int) -> int:
       f'Unexpected port {port} when minimum was {minimum}.')
    return port
 ```
+
 
 
 
