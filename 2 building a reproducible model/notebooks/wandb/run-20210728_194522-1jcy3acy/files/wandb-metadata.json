@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-07-28T17:45:24.145249",
+    "startedAt": "2021-07-28T17:45:22.155780",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"01bdfe2b-9f5d-44b3-903f-06a6f3ee0f96\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\PHILIP~1.SCH\\AppData\\Local\\Temp\\tmp-14852MtOC9GEsnUR5.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/philippschmalen/ml-devops-engineer.git",
+        "commit": "f7bad3382791e9777ab44c77958a27906a67a26c"
+    },
+    "email": "philipp.schmalen@adviqo.com",
+    "root": "C:/Users/philipp.schmalen/OneDrive/OneDrive - adviqo GmbH/Dokumente/Udacity ML devops engineer",
+    "host": "NB-BLN62",
+    "username": "philipp.schmalen",
+    "executable": "C:\\Users\\philipp.schmalen\\Miniconda3\\envs\\devops\\python.exe"
+}

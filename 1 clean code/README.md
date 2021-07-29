@@ -31,7 +31,7 @@ Reload window in vs code. Open auto_format_on_save.py and save. Flake8 will squi
 
 How to decide on your git workflow? When to branch and how to merge? There is no common solution for this as it depends on your use case. However, Github suggests a simple approach called *github flow*: https://guides.github.com/introduction/flow/
 
-#### TL;DR
+### TL;DR
 
 1. anything in the main branch is always deployable
 2. branch when developing and use descriptive names, like `refactor-authentication` or `user-content-cache-key`
@@ -47,7 +47,7 @@ Here is a great article about a common branching strategy: https://nvie.com/post
 
 Git does not know which changes to push when the same lines within a file were edited. How to solve: https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
 
-### Logging
+## Logging
 
 Here is a common setup for logging. 
 
@@ -67,7 +67,7 @@ It logs in `log/run.log` when running `logging_exercise.log`:
       16-07 13:09 root         ERROR    Input does not match expected type.
       16-07 13:09 root         INFO     SUCCESS: sum calculated
 
-#### Error logging example with `raise` and `try... except`
+### Error logging example with `raise` and `try... except`
 
 Taken from Google's python style guide. 
 
@@ -82,7 +82,7 @@ except OSError as error:
                   error, workdir)
 ```
 
-### Error handling
+## Error handling
 
 According to Google's styleguide: 
 
@@ -119,6 +119,10 @@ def connect_to_next_port(self, minimum: int) -> int:
    return port
 ```
 
+
+## Docstrings
+
+[Google style python docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) are simple and make documenting functions easy. Additionally, the vs code docstring extension provides pre-filled docstrings to save time. 
 
 
 
